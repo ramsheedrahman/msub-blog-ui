@@ -1,0 +1,29 @@
+
+.loginform{
+  margin-bottom: 30%;
+  
+
+}
+.logincontainer{
+    height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(90deg,#242222,#000);
+    color: #ffff;
+}
+.loginhead{
+    background-color: #db0b27;
+    color: #fff;
+    margin-top: 20%;
+    border-radius: 6px;
+    text-align: center;
+    
+    
+}
+.erralert{
+    margin-top: 20px;
+    display: none;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}

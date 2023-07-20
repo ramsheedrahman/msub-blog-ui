@@ -1,0 +1,38 @@
+
+
+.signcontainer{
+    background-image: linear-gradient(90deg,#242222,#000);
+    color: #ffff;
+    width: 100%;
+    height: 100vh;
+
+}
+.signuphead{
+    background-color: #db0b27;
+    color: #fff;
+    margin-top: 5%;
+    border-radius: 6px;
+    text-align: center;
+    max-width: 400px;
+    margin-left:30%;
+}
+input{
+    max-width: 400px;
+}
+.signupform{
+    margin-left:30%;
+    margin-top: 6%;
+    
+}
+.alert{
+    display: none;
+}
+.icon i{
+    color: rgb(25, 186, 89);
+}
+#password-strength{
+    display: block;
+ 
+    margin-left: 15%;
+   
+}

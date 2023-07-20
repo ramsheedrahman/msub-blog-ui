@@ -1,0 +1,76 @@
+.movielist{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg,#242222,#000);
+    padding-top: 75px;
+    min-height: 120vh;
+    
+}
+
+
+   
+.card{
+    width: 240px;
+    height: 350px;
+    background-color:transparent;
+    margin-top: 20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.8s;
+   
+}
+.card-img-top{
+    width: 220px;
+    max-width: 220px;
+    height: 300px;
+    max-height: 300px;
+    border: 4px solid white;
+    border-radius: 6px;
+   
+}
+
+.card:hover{
+    transform: scale(1.3)
+
+}
+.card-text{
+    color: #ffff;
+    
+    font-weight: bold;
+    font-size: large;
+}
+    
+
+.paginationdiv{
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+.paginationdiv li{
+    margin-left: 5px;
+    margin-bottom: 5px;
+   
+}
+.pagination {
+    height: 40px;
+    color: #000;
+}
+.page-link:hover{
+    background-color: #242222;
+}
+.page-link.active{
+    background-color: aquamarine;
+}
+.pagination li{
+    color: #000;
+    margin-left: 20px;
+    background-color:#fff;
+    width: 30px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+.prev{
+    width: 50px;
+}
