@@ -27,3 +27,6 @@ label{
     font-size: large;
     font-weight: bold;
 }
+.alert{
+    display: none;
+}

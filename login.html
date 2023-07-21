@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a  class="nav-link active" aria-current="page" href="./Home.html">Home</a>
+            <a  class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Movies.html">Movies</a>
@@ -29,9 +29,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./Contactus.html" >Contact Us</a>
           </li>
-          <li class="nav-item">
-          <a class="nav-link" href="./About.html">About US</a>
-          </li>
+          
           
           
         
@@ -51,21 +49,22 @@
             <div class="loginhead">
               <h1>Login Form</h1>
             </div>
-            <form action="./Home.html">
+            <form action="./index.html">
+              <div class="erralert alert alert-danger" id="alertt"  style="width:400px;"></div>
             <div class="mb-3">
  <label for="exampleInputEmail1" class="form-label">Email address</label>
- <input type="email" class="form-control" id="lemail" aria-describedby="emailHelp" name="email" onkeyup="emailValidate();"/>
+ <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" onkeyup="LoginemailValidate();"/>
  
 </div>
 <div class="mb-3">
  <label for="exampleInputPassword1" class="form-label">Password</label>
- <input type="password" class="form-control" id="lpassword" name="password" onkeyup=""/>
+ <input type="password" class="form-control" id="password" name="password" onkeyup="LoginpasswordValidate()"/>
 </div>
 <div class="mb-3 form-check">
  <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
  <label class="form-check-label" for="exampleCheck1">Check me out</label>
 </div>
-<button type="submit" class="btn btn-primary" onsubmit="submitHandler()">Submit</button>
+<button type="submit" class="btn btn-primary" onsubmit="return LoginsubmitHandler()">Submit</button>
 </form>
 <div class="sign">
  <p>Not a Member? <a href="./Signup.html">Sign Up</a></p>
